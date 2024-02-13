@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  background-color: black;
+}
+
+.autor {
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  padding-top: 30px;
+}
+
+div a {
+  padding-left: 10px;
+}
+
+.apresentacao {
+  margin-left: 260px;
+  margin-top: 90px;
+  font-size: 30px;
+}
+
+u {
+  text-decoration-color: green;
+}
+
+.foto {
+  width: 250px;
+}
+
+.perfil-foto {
+  transform: translate(550px, -400px);
+  width: 250px;
+}
+
+.introducao {
+  margin-top: 40px;
+}
+
+.contato {
+  position: relative;
+  top: -400px;
+}
+
+.tecnologias {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 70px;
+  margin-top: -250px;
+  padding-bottom: 80px;
+}
+
+.tecnologias i {
+  padding-left: 100px;
+}
+
+.experiencia {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.experiencia p {
+  padding-left: 100px;
+}
+
+.tecnologias2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 70px;
+  justify-content: space-around;
+}
+
+.tecnologias2 i {
+  padding-left: 100px;
+}
+
+.experiencia2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 17px;
+  justify-content: space-around;
+  margin-top: -170px;
+}
+
+.experiencia2 p {
+  padding-left: 100px;
+}
+
+.linha1 {
+  position: relative;
+  bottom: 350px;
+  margin-top: 120px;
+  width: 1050px;
+  left: 150px;
+}
+
+.desafio {
+  margin-top: 200px;
+}
+
+.projetos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.projetos h1 {
+  font-size: 60px;
+}
+
+.projetos a {
+  font-size: 20px;
+}
+
+.formulário {
+  width: 300px;
+  height: 280px;
+}
+
+.lista {
+  width: 300px;
+  height: 280px;
+}
+
+.calculadora {
+  width: 290px;
+  height: 280px;
+}
+
+.site {
+  width: 300px;
+  height: 280px;
+}
+
+.aplicacao {
+  width: 300px;
+  height: 280px;
+}
+
+.blog {
+  width: 300px;
+  height: 280px;
+}
+
+.projetos1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.projetos1 a {
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+.projetos2 a {
+  text-decoration: none;
+}
+
+.projetos3 a {
+  text-decoration: none;
+}
+
+.projetos1 p {
+  margin-top: 10px;
+}
+
+.projetos2 p {
+  margin-top: 10px;
+}
+
+.projetos3 p {
+  margin-top: 10px;
+}
+
+.projetos3 img {
+  margin-top: 20px;
+}
+
+.projetos2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.projetos3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.mensagem h1 {
+  font-size: 50px;
+  padding-bottom: 40px;
+  position: relative;
+  bottom: 60px;
+}
+
+.mensagem p {
+  width: 270px;
+  position: relative;
+  bottom: 70px;
+}
+
+.mensagem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 170px;
+}
+
+form {
+  width: 400px;
+}
+
+form input {
+  border-width: 0 0 1px 0;
+  width: 350px;
+}
+
+.enviar {
+  width: 120px;
+  border-color: rgb(28, 241, 28);
+  margin-left: 240px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#email {
+  position: relative;
+  top: 20px;
+}
+
+#message {
+  margin-top: 70px;
+}
+
+.email {
+  position: relative;
+  top: 15px;
+}
+
+.me {
+  position: relative;
+  top: 30px;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  clear: both;
+  justify-content: space-around;
+  margin-top: 300px;
+  bottom: 100px;
+}
+
+.linha2 {
+  width: 1050px;
+  position: relative;
+  left: 150px;
+  top: 150px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nome {
+    position: relative;
+    right: 200px;
+  }
+
+  .introducao {
+    position: relative;
+    right: 200px;
+  }
+
+  .perfil-foto {
+    position: relative;
+    right: 220px;
+  }
+
+  .linha1 {
+    position: relative;
+    width: 600px;
+  }
+
+  .linha2 {
+    position: relative;
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .perfil-foto {
+    position: relative;
+    right: 490px;
+    bottom: 10px;
+  }
+
+  .nome {
+    position: relative;
+    left: 40px;
+    font-size: 35px;
+    top: 450px;
+    width: 500px;
+  }
+
+  .linguagens {
+    position: relative;
+    top: 100px;
+    left: 200px;
+  }
+
+  .introducao {
+    position: relative;
+    top: 450px;
+    font-size: 17px;
+    left: 60px;
+  }
+
+  .contato {
+    margin-top: 320px;
+    font-size: 16px;
+    margin-left: 90px;
+  }
+
+  .linha1 {
+    position: relative;
+    width: 300px;
+    left: 90px;
+    bottom: 300px;
+  }
+
+  .tecnologias {
+    position: relative;
+    right: 40px;
+  }
+
+  .tecnologias2 {
+    position: relative;
+    right: 40px;
+  }
+
+  .experiencia {
+    position: relative;
+    right: 40px;
+  }
+
+  .experiencia2 {
+    position: relative;
+    right: 40px;
+  }
+
+  .linha2 {
+    position: relative;
+    top: -2680px;
+    width: 300px;
+    margin-left: 140px;
+  }
+
+  .projetos h1 {
+    font-size: 35px;
+  }
+
+  .projetos1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projetos2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projetos3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mensagem {
+    position: relative;
+    left: 350px;
+  }
+
+  form {
+    position: relative;
+    top: 200px;
+    right: 300px;
+  }
+
+  .desafio {
+    position: relative;
+    left: 180px;
+  }
+
+  .rodape {
+    position: relative;
+    bottom: 70px;
+    left: 180px;
+  }
+}
